@@ -1,0 +1,178 @@
+h1,
+h2,
+h3,
+h5,
+h6,
+a,
+button {
+  font-family: "Oswald", sans-serif;
+}
+
+li,
+p {
+  font-family: "Rajdhani", sans-serif;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption h6 {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.carousel-caption h1 {
+  padding-bottom: 30px;
+  font-size: 70px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.products .container {
+  padding-bottom: 20px;
+}
+
+.icons .container {
+  padding: 30px;
+}
+
+.gallery .card-body {
+  text-align: center;
+}
+
+.gallery .card-body h5 {
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+form label {
+  font-size: 0;
+}
+
+.form-control {
+  width: 200px;
+}
+
+.contact form button {
+  margin-top: 20px;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+li i {
+  font-size: 16px;
+}
+
+.inside-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 40px 70px 60px 70px;
+}
+
+.contact .box {
+  flex: 1;
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background: #dfe4ea;
+}
+
+.about li {
+  display: inline-block;
+}
+
+.about {
+  background: #ced6e0;
+  padding-left: 200px;
+}
+
+@media (max-width: 767px) {
+  .flex-1 {
+    order: 3;
+  }
+}
+@media (max-width: 767px) {
+  .flex-2 {
+    order: 1;
+  }
+}
+@media (max-width: 767px) {
+  .flex-3 {
+    order: 2;
+  }
+}
+@media (max-width: 767px) {
+  .inside-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .contact .box {
+    max-width: 100%;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .products div,
+  .gallery .container {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .icons div {
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    padding-left: 30px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRQTs7Ozs7OztFQU9JLGlDQWJVO0FDTWQ7O0FEVUE7O0VBRUksbUNBaEJRO0FDU1o7O0FEWUE7RUFDSSxrQkFBQTtFQUNBLG1CQUFBO0VBQ0EseUJBQUE7QUNUSjs7QURjQTs7RUFFSSxhQUFBO0FDWEo7O0FEY0E7RUFDSSxZQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ1hKOztBRGNBO0VBQ0ksUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ1hKOztBRGNBO0VBQ0ksb0JBQUE7RUFDQSxlQUFBO0FDWEo7O0FEY0E7RUFDSSxvQkFBQTtFQUNBLGVBQUE7QUNYSjs7QURnQkE7RUFDSSxXQUFBO0VBQ0EsYUFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNiSjs7QURnQkE7RUFDSSxvQkFBQTtFQUNBLGlCQUFBO0FDYko7O0FEZ0JBO0VBQ0ksb0JBQUE7QUNiSjs7QURrQkE7RUFDSSxhQUFBO0FDZko7O0FEb0JBO0VBQ0ksa0JBQUE7QUNqQko7O0FEb0JBO0VBQ0ksb0JBQUE7RUFDQSxlQUFBO0FDakJKOztBRHNCQTtFQUNJLFlBQUE7QUNuQko7O0FEc0JBO0VBQ0ksWUFBQTtBQ25CSjs7QURzQkE7RUFDSSxnQkFBQTtBQ25CSjs7QURzQkE7RUFDSSxxQkFBQTtFQUNBLFlBQUE7QUNuQko7O0FEc0JBO0VBQ0ksYUFBQTtFQUNBLHVCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtBQ25CSjs7QURzQkE7RUFDSSxlQUFBO0FDbkJKOztBRHNCQTtFQUNJLGFBQUE7RUFDQSxlQUFBO0VBQ0EsOEJBQUE7RUFDQSxnQkFBQTtFQUNBLDRCQUFBO0FDbkJKOztBRHNCQTtFQUNJLE9BQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7QUNuQko7O0FEc0JBO0VBQ0ksbUJBQUE7QUNuQko7O0FEd0JBO0VBQ0kscUJBQUE7QUNyQko7O0FEd0JBO0VBQ0ksbUJBQUE7RUFDQSxtQkFBQTtBQ3JCSjs7QUQ0QkE7RUFDSTtJQUNJLFFBQUE7RUN6Qk47QUFDRjtBRDRCQTtFQUNJO0lBQ0ksUUFBQTtFQzFCTjtBQUNGO0FENkJBO0VBQ0k7SUFDSSxRQUFBO0VDM0JOO0FBQ0Y7QUQ4QkE7RUFDSTtJQUNJLHNCQUFBO0VDNUJOO0FBQ0Y7QUQrQkE7RUFDSTtJQUNJLGVBQUE7SUFDQSxlQUFBO0lBQ0Esb0JBQUE7RUM3Qk47QUFDRjtBRGdDQTtFQUVJOztJQUVJLG9CQUFBO0VDL0JOO0FBQ0Y7QURrQ0E7RUFDSTtJQUNJLG9CQUFBO0VDaENOO0FBQ0Y7QURtQ0E7RUFDSTtJQUNJLGtCQUFBO0VDakNOO0FBQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
