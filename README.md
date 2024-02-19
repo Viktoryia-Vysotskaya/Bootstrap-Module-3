@@ -2,7 +2,7 @@
 
 ➱ Bootstrap
 
-💻 Live demo: https://3fd03c24-65da-4530-8683-b2995937630a-00-26um8b5e1hjgg.worf.replit.dev
+💻 Live demo: https://bootstrap-module-3-viktoryiavysots.replit.app
 
 (!) Free hosting so might take a while to load for first time.
 
