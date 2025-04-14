@@ -2,7 +2,7 @@
 
 ➱ Bootstrap
 
-💻 Live demo: https://bootstrap-module-3-viktoryiavysots.replit.app
+💻 Live demo: https://bootstrap-module-3.vercel.app
 
 (!) Free hosting so might take a while to load for first time.
 
